@@ -73,6 +73,20 @@ li {
   text-align: center;
   color: black;
     }
+h1 {
+  text-align: left;
+  font-family: 'Margarine', cursive;
+  font-size: 30px;
+  padding: 0px;
+}
+
+p {
+  font-size: 15px;
+  font-family: cursive;
+  text-align: justify;
+  color: black;
+  padding-bottom: 5px;
+}
 
 h2 {
   text-align: center;
@@ -140,3 +154,38 @@ h2 {
    .dropdown:hover .dropdown-content {
     display: block;
    }
+
+label {
+  font-family: 'Margarine', cursive;
+  font-size: 15px;
+}
+   .input {
+     font-family: 'Margarine', cursive;
+     width: 100%; /* Full width */
+     padding: 12px; /* Some padding */
+     border: black solid; /* Gray border */
+     border-radius: 4px; /* Rounded borders */
+     box-sizing: border-box; /* Make sure that padding and width stays in place */
+     margin-top: 6px; /* Add a top margin */
+     margin-bottom: 16px; /* Bottom margin */
+     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+   }
+
+   input[type=submit] {
+     background-color: #4CAF50;
+     color: white;
+     padding: 12px 20px;
+     border: black solid;
+     border-radius: 4px;
+     cursor: pointer;
+   }
+
+   input[type=submit]:hover {
+     background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

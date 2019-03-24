@@ -75,16 +75,16 @@ li {
     }
 
 .centre {
-  height: 200px;
-  width: 180px;
+  height: 250px;
+  width: 190px;
   float: left;
-  margin: 0px 10px 10px 25px;
+  margin: 25px 10px 10px 25px;
   border: solid black;
     }
 
 .dog1 {
-  height: 180px;
-  width: 220px;
+  height: 200px;
+  width: 240px;
   float: right;
   margin: 10px 25px 10px 15px;
   border: solid black;
@@ -103,11 +103,12 @@ h2 {
   text-align: center;
   font-family: 'Margarine', cursive;
   font-size: 30px;
-  color: purple;
+  color: black;
     }
 
 p {
   padding: 10px;
+  text-align: justify;
 }
 
 @media (max-width: 500px) {

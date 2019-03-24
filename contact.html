@@ -24,36 +24,44 @@
             </div>
           </div>
           <li><a href="file:///C:/Users/lsmyt/Documents/Girls_Coding_Course/Project-1/events.html">Events</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="file:///C:/Users/lsmyt/Documents/Girls_Coding_Course/Project-1/contact.html">Contact</a></li>
       </div>
     </ul>
   </header>
 
+  <br>
+
+  <div class="container">
     <form class="contact_form" action="contact.html" method="POST">
       <section>
         <h1>Pet Adoption Form</h1>
-        <p>Tell us a little bit about yourself, the pet you're interested in meeting and how we can get in contact with you.</p>
-        <p>Your new journey as a family is just about to begin!</p>
+        <p>Tell us a little bit about yourself, the pet you're interested in meeting and how we can get in contact with you.<br>Your new journey as a family is just about to begin!</p>
       </section>
 
       <section>
-        <label for="name">Name</label>
-        <input type="text" name="name"></input>
+        <label for="fname"> First Name:</label>
+        <input class="input" type="text" name="fname" placeholder="Your name here..."></input>
       </section>
 
       <section>
-        <label for="email">Email Address</label>
-        <input type="text" name="email"></input>
+        <label for="lname"> Last Name:</label>
+        <input class="input" type="text" name="lname" placeholder="Your last name here..."></input>
       </section>
 
       <section>
-        <label for="address">Home Address</label>
-        <input type="text" name="address"></input>
+        <label for="email">Email Address:</label>
+        <input class="input" type="text" name="email" placeholder="example@hotmail.co.uk"></input>
       </section>
 
       <section>
-        <label for="pet-type">Type of Pet</label>
-        <select id="pet-type" name="pet-type">
+        <label for="address">Home Address:</label>
+        <br>
+        <textarea class="input" name="address" rows="4" cols="70"></textarea>
+      </section>
+
+      <section>
+        <label for="pet-type">Type of Pet:</label>
+        <select class="input" name="pet-type">
           <option value="dog">Dog</option>
           <option value="cat">Cat</option>
           <option value="Horse">Horse</option>
@@ -61,21 +69,24 @@
       </section>
 
       <section>
-        <label for="pet-name">Name of Pet</label>
-        <input type="text" name="pet-name"></input>
+        <label for="pet-name">Name of Pet:</label>
+        <input class="input" type="text" name="pet-name" placeholder="Name of pet you love"></input>
       </section>
 
       <section>
-        <label for="number">Contact Number</label>
-        <input type="number" name="number"></input>
+        <label for="number">Contact Number:</label>
+        <input class="input" type="number" name="number"></input>
       </section>
 
       <section>
-        <label for="message">Your Message</label>
-        <input type="text" name="message"></input>
+        <label for="message">Your Message:</label>
+        <br>
+        <textarea class="input" name="message" rows="4" cols="50" placeholder="How can we help you?.."></textarea>
       </section>
-
+      <section>
+        <input type="submit" value="Submit">
     </form>
+  </div>
 
   <footer>
     <ul class="footer">
