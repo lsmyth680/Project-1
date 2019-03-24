@@ -13,7 +13,7 @@ a {
     }
 
 body {
-  background-color: #3A9AC0;
+  background-color: #8FD6F3;
 }
 
 /*.footer {
@@ -124,7 +124,8 @@ p {
 
    .navbar {
     overflow: hidden;
-    background-color: #8FD6F3;
+    background-color: #0CBDFA;
+    width: 100%;
    }
 
    .navbar a {
@@ -180,4 +181,10 @@ p {
 
    .dropdown:hover .dropdown-content {
     display: block;
+   }
+
+   .container {
+     border-radius: 5px;
+     background-color: #D9F1FA;
+     padding: 20px;
    }

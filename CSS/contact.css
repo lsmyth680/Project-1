@@ -13,8 +13,8 @@ a {
     }
 
 body {
-  background-color: #3A9AC0;
-}
+  background-color: #8FD6F3;
+    }
 
 /*.footer {
   background: rgba(0,0,0,0.9);
@@ -73,6 +73,7 @@ li {
   text-align: center;
   color: black;
     }
+
 h1 {
   text-align: left;
   font-family: 'Margarine', cursive;
@@ -88,16 +89,9 @@ p {
   padding-bottom: 5px;
 }
 
-h2 {
-  text-align: center;
-  font-family: 'Margarine', cursive;
-  font-size: 30px;
-  color: purple;
-    }
-
    .navbar {
     overflow: hidden;
-    background-color: #8FD6F3;
+    background-color: #0CBDFA;
    }
 
    .navbar a {
@@ -186,6 +180,6 @@ label {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #D9F1FA;
   padding: 20px;
 }
