@@ -27,7 +27,62 @@
           <li><a href="#">Contact</a></li>
       </div>
     </ul>
-
   </header>
+
+    <form class="contact_form" action="contact.html" method="POST">
+      <section>
+        <h1>Pet Adoption Form</h1>
+        <p>Tell us a little bit about yourself, the pet you're interested in meeting and how we can get in contact with you.</p>
+        <p>Your new journey as a family is just about to begin!</p>
+      </section>
+
+      <section>
+        <label for="name">Name</label>
+        <input type="text" name="name"></input>
+      </section>
+
+      <section>
+        <label for="email">Email Address</label>
+        <input type="text" name="email"></input>
+      </section>
+
+      <section>
+        <label for="address">Home Address</label>
+        <input type="text" name="address"></input>
+      </section>
+
+      <section>
+        <label for="pet-type">Type of Pet</label>
+        <select id="pet-type" name="pet-type">
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="Horse">Horse</option>
+        </select>
+      </section>
+
+      <section>
+        <label for="pet-name">Name of Pet</label>
+        <input type="text" name="pet-name"></input>
+      </section>
+
+      <section>
+        <label for="number">Contact Number</label>
+        <input type="number" name="number"></input>
+      </section>
+
+      <section>
+        <label for="message">Your Message</label>
+        <input type="text" name="message"></input>
+      </section>
+
+    </form>
+
+  <footer>
+    <ul class="footer">
+      <li><a href="#" class="fa fa-facebook"></a></li>
+      <li><a href="#" class="fa fa-twitter"></a></li>
+      <li><a href="#" class="fa fa-instagram"></a></li>
+    </ul>
+  </footer>
 </body>
 </html>

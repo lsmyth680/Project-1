@@ -74,52 +74,12 @@ li {
   color: black;
     }
 
-.centre {
-  height: 200px;
-  width: 180px;
-  float: left;
-  margin: 0px 10px 10px 25px;
-  border: solid black;
-    }
-
-.dog1 {
-  height: 180px;
-  width: 220px;
-  float: right;
-  margin: 10px 25px 10px 15px;
-  border: solid black;
-  position: relative;
-  top: -25px;
-    }
-
-article {
-  font-size: 20px;
-  font-family: cursive;
-  text-align: justify;
-  color: black;
-    }
-
 h2 {
   text-align: center;
   font-family: 'Margarine', cursive;
   font-size: 30px;
   color: purple;
     }
-
-p {
-  padding: 10px;
-}
-
-@media (max-width: 500px) {
-  h1 {
-    font-size: 36px;
-     }
-
-  li {
-    display: block;
-    padding: 5px;
-      }
-   }
 
    .navbar {
     overflow: hidden;
