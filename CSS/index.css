@@ -1,6 +1,7 @@
 header {
   background-image: url("file://C:/Users/lsmyt/Documents/Girls_Coding_Course/Project-1/pet_header.jpg");
   background-size: cover;
+  background-position: 50% 50%;
   height: 400px;
   width: 100%;
   color: black;
@@ -14,11 +15,6 @@ a {
 
 body {
   background-color: #8FD6F3;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
 }
 
 /*.footer {
@@ -116,7 +112,7 @@ p {
   text-align: justify;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   h1 {
     font-size: 36px;
      }
@@ -125,6 +121,14 @@ p {
     display: block;
     padding: 5px;
       }
+  header {
+    width: 100%;
+    background-size: 100%;
+    background-position: 50% 50%;
+  }
+  .container {
+    width: 100%;
+  }
    }
 
    .navbar {

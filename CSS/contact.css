@@ -2,7 +2,7 @@ header {
   background-image: url("file://C:/Users/lsmyt/Documents/Girls_Coding_Course/Project-1/pet_header.jpg");
   background-size: cover;
   height: 400px;
-  width: 1250px;
+  width: 100%;
   color: black;
   font-family: 'Margarine', cursive;
   padding-top: 0px;
