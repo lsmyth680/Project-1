@@ -1,6 +1,7 @@
 header {
   background-image: url("file://C:/Users/lsmyt/Documents/Girls_Coding_Course/Project-1/pet_header.jpg");
   background-size: cover;
+  background-position: 50% 50%;
   height: 400px;
   width: 100%;
   color: black;
@@ -183,3 +184,22 @@ label {
   background-color: #D9F1FA;
   padding: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+     }
+
+  li {
+    display: block;
+    padding: 5px;
+      }
+  header {
+    width: 100%;
+    background-size: 100%;
+    background-position: 50% 50%;
+  }
+  .container {
+    width: 100%;
+  }
+   }

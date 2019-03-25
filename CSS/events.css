@@ -1,8 +1,9 @@
 header {
   background-image: url("file://C:/Users/lsmyt/Documents/Girls_Coding_Course/Project-1/pet_header.jpg");
   background-size: cover;
+  background-position: 50% 50%;
   height: 400px;
-  width: 1250px;
+  width: 100%;
   color: black;
   font-family: 'Margarine', cursive;
   padding-top: 0px;
@@ -107,17 +108,6 @@ p {
   padding: 0px 10px 5px 10px;
 }
 
-@media (max-width: 500px) {
-  h1 {
-    font-size: 36px;
-     }
-
-  li {
-    display: block;
-    padding: 5px;
-      }
-   }
-
    .navbar {
     overflow: hidden;
     background-color: #0CBDFA;
@@ -183,3 +173,22 @@ p {
      background-color: #D9F1FA;
      padding: 20px;
    }
+   
+   @media only screen and (max-width: 600px) {
+     h1 {
+       font-size: 36px;
+        }
+
+     li {
+       display: block;
+       padding: 5px;
+         }
+     header {
+       width: 100%;
+       background-size: 100%;
+       background-position: 50% 50%;
+     }
+     .container {
+       width: 100%;
+     }
+      }
